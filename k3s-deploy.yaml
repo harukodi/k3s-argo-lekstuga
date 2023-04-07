@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  namespace: target-namespace-for-the-app
+  namespace: test-site
   name: nginx
   labels:
     app: nginx
